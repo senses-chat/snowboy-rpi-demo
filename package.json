@@ -1,0 +1,22 @@
+{
+  "name": "snowboy-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node .",
+    "clean-audio": "rm *.wav"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "dotenv": "^8.0.0",
+    "inquirer": "^6.5.0",
+    "nan": "^2.14.0",
+    "node-record-lpcm16": "^1.0.1",
+    "snowboy": "file:snowboy",
+    "speaker": "file:speaker",
+    "ws": "^7.1.1",
+    "xunfeisdk": "^1.0.1"
+  }
+}
